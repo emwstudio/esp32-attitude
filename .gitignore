@@ -1,0 +1,26 @@
+# ---- 构建产物 ----
+firmware/build/
+# IDF 组件管理器拉取的依赖（dependencies.lock 已锁定版本，clone 后 idf.py 自动恢复）
+firmware/managed_components/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# ---- 本地参考项目（不属本仓库） ----
+voice-chat/speech-to-speech/
+waveshare-demo/
+
+# ---- 音频素材（波音 GPWS 录音 / 真实塔台录音，版权原因不再分发，见 README） ----
+firmware/spiffs_image/voice/*.wav
+voice-pipeline/gpws_raw/
+voice-pipeline/gpws/
+voice-pipeline/assets/
+voice-pipeline/assets_ting/
+voice-pipeline/*.wav
+voice-pipeline/test_clone.raw
+voice-chat/ref_tower*.wav
+
+# ---- 本地凭据与运行记录 ----
+firmware/main/voice_secrets.h
+voice-chat/transcript.txt

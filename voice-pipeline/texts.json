@@ -1,0 +1,50 @@
+{
+  "system_ready": [
+    "System Ready",
+    "Check Passed",
+    "System OK",
+    "All OK"
+  ],
+  "pitch_high": [
+    "俯仰角过大。",
+    "PULL UP，俯仰过大。",
+    "注意俯仰角。",
+    "俯仰角超限。"
+  ],
+  "bank_angle": [
+    "PULL UP，拉升。",
+    "注意坡度，WARNING。",
+    "保持稳定，STABLE。",
+    "俯仰角，CHECK。"
+  ],
+  "sink_rate": [
+    "下降过快，DROP。",
+    "下降率大，CRASH。",
+    "下降过急，STOP。",
+    "下降过大，ATTN。"
+  ],
+  "stall": [
+    "空速过低，PULL UP",
+    "注意空速，PULL UP",
+    "失速预警，PULL UP",
+    "空速过低，LIFT UP"
+  ],
+  "pull_up": [
+    "拉升 PULL UP。",
+    "立即拉升 PULL UP。",
+    "防撞拉升 PULL UP。",
+    "紧急拉升 PULL UP。"
+  ],
+  "terrain": [
+    "注意地形，PULL UP",
+    "注意地形，LOWER ALT",
+    "注意地形，CRUISE",
+    "注意地形，HOLD"
+  ],
+  "altitude_low": [
+    "PULL UP，拉升。",
+    "注意高度。",
+    "保持高度。",
+    "高度不足，拉升。"
+  ]
+}
