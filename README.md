@@ -2,7 +2,11 @@
 
 在 **ESP32-S3-Touch-AMOLED-2.16**（480×480 AMOLED、QMI8658 六轴 IMU、ES8311 音频 Codec）上实现的仿真飞机地平姿态仪（PFD），UI 刻度与读数逻辑对照 737NG/A320 级别客机真机标准，告警音效采用**真实客机 GPWS 录音**（含进近高度喊话全套）；并可通过 WiFi 与 Mac 端语音管线实时对话——**塔台管制员**（VoxCPM2 克隆真实塔台录音音色 + 电台信道模拟）。
 
-![界面](docs/screenshot.jpg)
+![姿态仪实拍](docs/screenshot.jpg)
+
+![演示动画：姿态显示 + 塔台语音对话（红黄绿状态点）](docs/demo.gif)
+
+完整演示视频（含塔台语音）：[docs/demo.mp4](docs/demo.mp4)
 
 ## 功能
 
